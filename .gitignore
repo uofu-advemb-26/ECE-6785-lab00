@@ -1,2 +1,9 @@
-.vscode/
-**/build/
+.vscode
+**/build
+Testing
+log
+
+*.log.*
+*-asciinema
+*.pid
+*-profile
