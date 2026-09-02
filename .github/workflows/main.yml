@@ -29,7 +29,6 @@ jobs:
       - name: Install CMake
         run: |
           sudo apt-get update
-          sudo apt-get install cmake -y
           sudo apt-get install build-essential cmake gcc-arm-none-eabi openocd git -y
 
       - name: Create Build Environment
