@@ -12,7 +12,8 @@ env:
 
 jobs:
   build:
-    runs-on: [self-hosted, linux, x64]
+    runs-on: ubuntu-slim
+    # runs-on: [self-hosted, linux, x64]
     steps:
       - name: Clean workspace
         run: |
